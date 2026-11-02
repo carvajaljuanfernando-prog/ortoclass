@@ -1,0 +1,23 @@
+{
+  "name": "ortoclass",
+  "version": "1.0.0",
+  "description": "Ortoclass — plataforma de gestión para consultorio odontológico (agenda, pacientes, tratamientos, recordatorios por WhatsApp, cuentas)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  }
+}
